@@ -23,9 +23,9 @@ class lab4:
     def data(self):
 
         plt.scatter(self.x, self.y, label = "Data")
-        plt.xlabel("degrees")
-        plt.ylabel("counts in 10 seconds")
-        plt.title(str(self.name))
+        plt.xlabel("Angular Separation")
+        plt.ylabel("Coincidence Counts in 10 seconds")
+        plt.title("Correlation Function for Annihilation of Na22")
         plt.legend()
 
     def fit(self):
